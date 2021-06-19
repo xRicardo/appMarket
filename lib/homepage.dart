@@ -112,6 +112,194 @@ Widget vent1() {
             ),
             Text(
               "Microwave Oven",
+              style: TextStyle(
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              "4.6",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget vent2() {
+  return Container(
+    child: Card(
+      child: Container(
+        height: 100,
+        width: 500,
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: 170,
+              width: 160,
+              decoration: BoxDecoration(
+                image: DecorationImage(image: AssetImage("batidora.jpeg")),
+              ),
+            ),
+            Text(
+              "Whisk",
+              style: TextStyle(
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              "3.3",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget vent3() {
+  return Container(
+    child: Card(
+      child: Container(
+        height: 100,
+        width: 500,
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: 170,
+              width: 160,
+              decoration: BoxDecoration(
+                image:
+                    DecorationImage(image: AssetImage("estereo-equipo.jpeg")),
+              ),
+            ),
+            Text(
+              "Speakers",
+              style: TextStyle(
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              "4.6",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget vent4() {
+  return Container(
+    child: Card(
+      child: Container(
+        height: 100,
+        width: 500,
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: 170,
+              width: 160,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage("aire-acondicionador.jpeg")),
+              ),
+            ),
+            Text(
+              "Air Conditioner",
+              style: TextStyle(
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              "5.0",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget vent5() {
+  return Container(
+    child: Card(
+      child: Container(
+        height: 100,
+        width: 500,
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: 170,
+              width: 160,
+              decoration: BoxDecoration(
+                image: DecorationImage(image: AssetImage("television.jpeg")),
+              ),
+            ),
+            Text(
+              "Television",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              "5.0",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 17,
+                color: Colors.black,
+              ),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget vent1() {
+  return Container(
+    child: Card(
+      child: Container(
+        height: 100,
+        width: 500,
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: 170,
+              width: 160,
+              decoration: BoxDecoration(
+                image: DecorationImage(image: AssetImage("microondas.jpeg")),
+              ),
+            ),
+            Text(
+              "Microwave Oven",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
             ),
           ],
