@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:carousel_pro/carousel_pro.dart';
 
 class HomePage extends StatelessWidget {
   final GlobalKey<ScaffoldState> _key = GlobalKey<ScaffoldState>();
@@ -43,62 +44,72 @@ Widget derecha() {
     width: double.infinity,
     margin: EdgeInsets.symmetric(horizontal: 20),
     child: ListView(
-      children: [
+      children: <Widget>[
         Column(
           children: <Widget>[
             Container(
-              height: 120,
               width: double.infinity,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Card(
-                    child: ListView(
-                      children: [
-                        Column(
-                          children: [
-                            modal1(),
-                            modal2(),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    height: 120,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: <Widget>[
-                            Text(
-                              "favourites",
-                              style: TextStyle(
-                                  fontSize: 22, fontWeight: FontWeight.bold),
+                  Column(
+                    children: <Widget>[
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Container(
+                            height: 200,
+                            child: Carousel(
+                              autoplay: true,
+                              showIndicator: false,
+                              images: [
+                                AssetImage("batidora.jpeg"),
+                                AssetImage("stereo-equipo.jpeg"),
+                              ],
                             ),
-                            ElevatedButton(
-                                onPressed: () {},
-                                child: Text("VIEW ALL",
-                                    style: TextStyle(fontSize: 12)),
-                                style: ButtonStyle(
-                                  foregroundColor:
-                                      MaterialStateProperty.all<Color>(
-                                          Colors.white),
-                                  backgroundColor:
-                                      MaterialStateProperty.all<Color>(
-                                          Colors.blue),
-                                  shape: MaterialStateProperty.all<
-                                      RoundedRectangleBorder>(
-                                    RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(20),
+                          ),
+                          Container(
+                            height: 120,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: <Widget>[
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: <Widget>[
+                                    Text(
+                                      "favourites",
+                                      style: TextStyle(
+                                          fontSize: 22,
+                                          fontWeight: FontWeight.bold),
                                     ),
-                                  ),
-                                )),
-                          ],
-                        ),
-                      ],
-                    ),
+                                    ElevatedButton(
+                                        onPressed: () {},
+                                        child: Text("VIEW ALL",
+                                            style: TextStyle(fontSize: 12)),
+                                        style: ButtonStyle(
+                                          foregroundColor:
+                                              MaterialStateProperty.all<Color>(
+                                                  Colors.white),
+                                          backgroundColor:
+                                              MaterialStateProperty.all<Color>(
+                                                  Colors.blue),
+                                          shape: MaterialStateProperty.all<
+                                              RoundedRectangleBorder>(
+                                            RoundedRectangleBorder(
+                                              borderRadius:
+                                                  BorderRadius.circular(20),
+                                            ),
+                                          ),
+                                        )),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -112,11 +123,29 @@ Widget derecha() {
                   vent3(),
                   vent4(),
                   vent5(),
+                  vent1(),
+                  vent2(),
+                  vent3(),
+                  vent4(),
+                  vent5(),
                 ],
               ),
             ),
           ],
         ),
+      ],
+    ),
+  );
+}
+
+Widget muestra() {
+  return Container(
+    child: Row(
+      children: [
+        modal1(),
+        modal2(),
+        modal1(),
+        modal2(),
       ],
     ),
   );
@@ -419,4 +448,3 @@ Widget modal2() {
     ),
   );
 }
-
