@@ -114,22 +114,26 @@ Widget derecha() {
                 ],
               ),
             ),
-            Card(
-              child: Column(
-                children: [
-                  Text("ALL", style: TextStyle(fontSize: 12)),
-                  vent1(),
-                  vent2(),
-                  vent3(),
-                  vent4(),
-                  vent5(),
-                  vent1(),
-                  vent2(),
-                  vent3(),
-                  vent4(),
-                  vent5(),
-                ],
-              ),
+            ListView(
+              children: <Widget>[
+                Card(
+                  child: Column(
+                    children: [
+                      Text("ALL", style: TextStyle(fontSize: 12)),
+                      vent1(),
+                      vent2(),
+                      vent3(),
+                      vent4(),
+                      vent5(),
+                      vent1(),
+                      vent2(),
+                      vent3(),
+                      vent4(),
+                      vent5(),
+                    ],
+                  ),
+                ),
+              ],
             ),
           ],
         ),
