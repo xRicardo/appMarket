@@ -42,61 +42,80 @@ Widget derecha() {
     height: double.infinity,
     width: double.infinity,
     margin: EdgeInsets.symmetric(horizontal: 20),
-    child: Column(
-      children: <Widget>[
-        Container(
-          height: 120,
-          color: Colors.blue,
-          width: double.infinity,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: <Widget>[
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    child: ListView(
+      children: [
+        Column(
+          children: <Widget>[
+            Container(
+              height: 120,
+              width: double.infinity,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text(
-                    "favourites",
-                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-                  ),
-                  ElevatedButton(
-                      onPressed: () {},
-                      child: Text("VIEW ALL", style: TextStyle(fontSize: 12)),
-                      style: ButtonStyle(
-                        foregroundColor:
-                            MaterialStateProperty.all<Color>(Colors.white),
-                        backgroundColor:
-                            MaterialStateProperty.all<Color>(Colors.blue),
-                        shape:
-                            MaterialStateProperty.all<RoundedRectangleBorder>(
-                          RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20),
-                          ),
+                  Card(
+                    child: ListView(
+                      children: [
+                        Column(
+                          children: [
+                            modal1(),
+                            modal2(),
+                          ],
                         ),
-                      )),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 120,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: <Widget>[
+                            Text(
+                              "favourites",
+                              style: TextStyle(
+                                  fontSize: 22, fontWeight: FontWeight.bold),
+                            ),
+                            ElevatedButton(
+                                onPressed: () {},
+                                child: Text("VIEW ALL",
+                                    style: TextStyle(fontSize: 12)),
+                                style: ButtonStyle(
+                                  foregroundColor:
+                                      MaterialStateProperty.all<Color>(
+                                          Colors.white),
+                                  backgroundColor:
+                                      MaterialStateProperty.all<Color>(
+                                          Colors.blue),
+                                  shape: MaterialStateProperty.all<
+                                      RoundedRectangleBorder>(
+                                    RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
+                                  ),
+                                )),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
-            ],
-          ),
-        ),
-        Card(
-          child: Column(
-            children: [
-              modal1(),
-              modal2(),
-            ],
-          ),
-        ),
-        Card(
-          child: Column(
-            children: [
-              Text("ALL", style: TextStyle(fontSize: 12)),
-              vent1(),
-              vent2(),
-              vent3(),
-              vent4(),
-              vent5(),
-            ],
-          ),
+            ),
+            Card(
+              child: Column(
+                children: [
+                  Text("ALL", style: TextStyle(fontSize: 12)),
+                  vent1(),
+                  vent2(),
+                  vent3(),
+                  vent4(),
+                  vent5(),
+                ],
+              ),
+            ),
+          ],
         ),
       ],
     ),
@@ -400,3 +419,4 @@ Widget modal2() {
     ),
   );
 }
+
