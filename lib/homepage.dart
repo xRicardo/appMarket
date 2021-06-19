@@ -81,10 +81,12 @@ Widget derecha() {
         Card(
           child: Column(
             children: [
-              izquierda(),
-              izquierda(),
-              izquierda(),
-              izquierda(),
+              Text("ALL", style: TextStyle(fontSize: 12)),
+              vent1(),
+              vent2(),
+              vent3(),
+              vent4(),
+              vent5(),
             ],
           ),
         ),
@@ -93,7 +95,7 @@ Widget derecha() {
   );
 }
 
-Widget izquierda() {
+Widget vent1() {
   return Container(
     child: Card(
       child: Container(
@@ -102,13 +104,122 @@ Widget izquierda() {
         child: Column(
           children: <Widget>[
             Container(
-              height: 90,
-              width: 470,
-              color: Colors.blueGrey,
+              height: 170,
+              width: 160,
               decoration: BoxDecoration(
-                  //image: DecorationImage(image:),
-                  ),
-            )
+                image: DecorationImage(image: AssetImage("microondas.jpeg")),
+              ),
+            ),
+            Text(
+              "Microwave Oven",
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget vent2() {
+  return Container(
+    child: Card(
+      child: Container(
+        height: 100,
+        width: 500,
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: 170,
+              width: 160,
+              decoration: BoxDecoration(
+                image: DecorationImage(image: AssetImage("batidora.jpeg")),
+              ),
+            ),
+            Text(
+              "Whisk",
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget vent3() {
+  return Container(
+    child: Card(
+      child: Container(
+        height: 100,
+        width: 500,
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: 170,
+              width: 160,
+              decoration: BoxDecoration(
+                image:
+                    DecorationImage(image: AssetImage("estereo-equipo.jpeg")),
+              ),
+            ),
+            Text(
+              "Speakers",
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget vent4() {
+  return Container(
+    child: Card(
+      child: Container(
+        height: 100,
+        width: 500,
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: 170,
+              width: 160,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage("aire-acondicionador.jpeg")),
+              ),
+            ),
+            Text(
+              "Air Conditioner",
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget vent5() {
+  return Container(
+    child: Card(
+      child: Container(
+        height: 100,
+        width: 500,
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: 170,
+              width: 160,
+              decoration: BoxDecoration(
+                image: DecorationImage(image: AssetImage("television.jpeg")),
+              ),
+            ),
+            Text(
+              "Television",
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            ),
           ],
         ),
       ),
