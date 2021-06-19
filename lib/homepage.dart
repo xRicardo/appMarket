@@ -173,13 +173,47 @@ Widget vent1() {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "4.6",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 17,
-                color: Colors.black,
-              ),
+            Row(
+              children: <Widget>[
+                Text(
+                  "4.6",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.transparent,
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
@@ -210,13 +244,47 @@ Widget vent2() {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "3.3",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 17,
-                color: Colors.black,
-              ),
+            Row(
+              children: <Widget>[
+                Text(
+                  "3.3",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.transparent,
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.transparent,
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
@@ -248,13 +316,47 @@ Widget vent3() {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "4.6",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 17,
-                color: Colors.black,
-              ),
+            Row(
+              children: <Widget>[
+                Text(
+                  "4.6",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.transparent,
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
@@ -286,13 +388,47 @@ Widget vent4() {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "5.0",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 17,
-                color: Colors.black,
-              ),
+            Row(
+              children: <Widget>[
+                Text(
+                  "5.0",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
@@ -324,13 +460,47 @@ Widget vent5() {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "5.0",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 17,
-                color: Colors.black,
-              ),
+            Row(
+              children: <Widget>[
+                Text(
+                  "4.6",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 18,
+                      color: Colors.blue[700],
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
@@ -375,13 +545,47 @@ Widget modal1() {
                         color: Colors.black,
                       ),
                     ),
-                    Text(
-                      "4.6",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 17,
-                        color: Colors.black,
-                      ),
+                    Row(
+                      children: <Widget>[
+                        Text(
+                          "4.6",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 17,
+                            color: Colors.black,
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Row(
+                          children: <Widget>[
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.blue[700],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.blue[700],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.blue[700],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.blue[700],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.transparent,
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ],
                 ),
@@ -430,13 +634,47 @@ Widget modal2() {
                         color: Colors.black,
                       ),
                     ),
-                    Text(
-                      "4.6",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 17,
-                        color: Colors.black,
-                      ),
+                    Row(
+                      children: <Widget>[
+                        Text(
+                          "4.6",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 17,
+                            color: Colors.black,
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Row(
+                          children: <Widget>[
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.blue[700],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.blue[700],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.blue[700],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.blue[700],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 18,
+                              color: Colors.transparent,
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ],
                 ),
